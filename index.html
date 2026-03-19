@@ -487,7 +487,7 @@ Use null se não conseguir identificar. Para 9 e 10 use "SOMA:número".`;
         'Authorization': `Bearer ${apiKey}`
       },
       body: JSON.stringify({
-        model: 'openrouter/free',
+        model: 'openrouter/hunter-alpha',
         max_tokens: 300,
         messages: [{ role: 'user', content: [
           { type: 'image_url', image_url: { url: `data:image/jpeg;base64,${b64}` } },
